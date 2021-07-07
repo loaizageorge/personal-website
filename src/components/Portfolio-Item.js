@@ -2,7 +2,7 @@ import React from 'react';
 
 const Project = (props) => {
   const { project } = props;
-  const  imgLink = "images/project_thumbnails/" + project.image;
+  const  imgLink = "portfolio/" + project.image;
 
   return (
     <section className="project">

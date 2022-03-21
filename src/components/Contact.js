@@ -11,24 +11,24 @@ const Contact = () => {
 
             <div className="email">
               <a href="mailto:loaizageorge@gmail.com" target="_top">
-                <i id="email-icon" className="fal fa-envelope" aria-hidden="true" />
+                <img src="icons/envelope.svg" id="email-icon" aria-hidden="true" />
               </a>
               <p id="email-url">loaizageorge@gmail.com</p>
             </div>
 
             <h3>I'm also at these sites!</h3>
             <a href="https://www.freecodecamp.com/xchendo" target="_blank" rel="noopener noreferrer" id="freecodecamp" role="button" className="btn btn-default btn-lg freecodecamp-btn">
-              <i className="fab fa-free-code-camp" aria-hidden="true" />
+              <img src="icons/free-code-camp.svg" aria-hidden="true" />
               <span> FreeCodeCamp</span>
             </a>
 
             <a href="http://codepen.io/xchendo/" target="_blank" rel="noopener noreferrer" id="codepen" role="button" className="btn btn-default btn-lg codepen-btn">
-              <i className="fab fa-codepen" />
+              <img src="icons/codepen.svg"/>
               <span>CodePen</span>
             </a>
 
             <a href="https://github.com/xchendo" target="_blank" rel="noopener noreferrer" id="github" role="button" className="btn btn-default btn-lg github-btn">
-              <i className="fab fa-github" aria-hidden="true" />
+              <img src="icons/github-alt.svg" aria-hidden="true" />
               <span> Github</span>
             </a>
           </div>

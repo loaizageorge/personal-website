@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav className="nav">
       <div className="logo">
         <a href="http://georgeloaiza.com">
-          <i className="fas fa-user-astronaut" />
+          <img height="32px" width="32px" src="icons/ghost.svg" />
             George Loaiza
         </a>
       </div>

@@ -154,7 +154,8 @@ a.btn-default:hover:after {
     color: #007edc;
     margin-right: 5px;
     transition: all 0.2s ease-in-out;
-    font-size: 40px;
+    height: 40px;
+    width: 40px;
 }
 
 #email-icon:hover {
@@ -164,6 +165,7 @@ a.btn-default:hover:after {
 
 .nav {
     display: flex;
+    align-items: center;
 }
 
 nav {
@@ -200,6 +202,8 @@ nav .logo {
 }
 
 nav .logo a {
+    display: flex;
+    justify-content: center;
     text-decoration: none;
     color: inherit;
 }
@@ -300,6 +304,16 @@ h3 {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
     grid-gap: 1rem;
+}
+
+.section-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-header > img {
+    padding: 5px;
 }
 
 .section-title {
@@ -437,21 +451,11 @@ h3 {
     text-align: center;
 }
 
-.contact-container {
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
+.contact-container form,
+.contact-container .contact__links {
+    grid-column: 1/-1;
 }
 
-.contact-container form {
-    grid-column: 2/4;
-}
-
-@media screen and (max-width: 740px) {
-    .contact-container form,
-    .contact-container .contact__links {
-        grid-column: 1/-1;
-    }
-}
 
 .form-group {
     justify-content: flex-end;
@@ -500,6 +504,11 @@ h3 {
     display: block;
 }
 
+.buttons img {
+    height: 20px;
+    width: 20px;
+}
+
 a.btn-default {
     height: 44px;
     border-radius: 0;
@@ -516,13 +525,14 @@ a.btn-default {
     overflow: hidden;
 }
 
-a.btn-default i {
+a.btn-default img {
     display: block;
     float: left;
     position: absolute;
     left: 10px;
     top: 10px;
-    font-size: 24px;
+    height: 24px;
+    width: 24px;
     color: #FFFFFF;
     position: relative;
     z-index: 1;

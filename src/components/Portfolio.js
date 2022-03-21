@@ -36,8 +36,8 @@ const projects = [
         <div>
          <div className="section-header">
            <h3 className="section-title">Full Stack</h3>
-           <img height="28px" width="28px" src="icons/atom.svg"/>
-           <img height="28px" width="28px" src="icons/database.svg"/>
+           <img height="28px" width="28px" src="icons/atom.svg" alt="react atom logo"/>
+           <img height="28px" width="28px" src="icons/database.svg" alt="database icon"/>
          </div>
           <div className="section">
             {
@@ -50,7 +50,7 @@ const projects = [
         <div>
           <div className="section-header">
             <h3 className="section-title">Front End</h3>
-            <img height="28px" width="28px" src="icons/atom.svg"/>
+            <img height="28px" width="28px" src="icons/atom.svg" alt="react atom logo"/>
           </div>
           <div className="section">
             {

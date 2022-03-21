@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React from 'react';
 
 const Contact = () => {
   return (
@@ -11,24 +11,24 @@ const Contact = () => {
 
             <div className="email">
               <a href="mailto:loaizageorge@gmail.com" target="_top">
-                <img src="icons/envelope.svg" id="email-icon" aria-hidden="true" />
+                <img id="email-icon" alt="envelope icon" src="icons/envelope.svg" aria-hidden="true" />
               </a>
               <p id="email-url">loaizageorge@gmail.com</p>
             </div>
 
             <h3>I'm also at these sites!</h3>
             <a href="https://www.freecodecamp.com/xchendo" target="_blank" rel="noopener noreferrer" id="freecodecamp" role="button" className="btn btn-default btn-lg freecodecamp-btn">
-              <img src="icons/free-code-camp.svg" aria-hidden="true" />
+              <img src="icons/free-code-camp.svg" alt="freecodecamp icon" aria-hidden="true" />
               <span> FreeCodeCamp</span>
             </a>
 
             <a href="http://codepen.io/xchendo/" target="_blank" rel="noopener noreferrer" id="codepen" role="button" className="btn btn-default btn-lg codepen-btn">
-              <img src="icons/codepen.svg"/>
+              <img src="icons/codepen.svg" alt="codepen icon"/>
               <span>CodePen</span>
             </a>
 
             <a href="https://github.com/xchendo" target="_blank" rel="noopener noreferrer" id="github" role="button" className="btn btn-default btn-lg github-btn">
-              <img src="icons/github-alt.svg" aria-hidden="true" />
+              <img src="icons/github-alt.svg" alt="github icon" aria-hidden="true" />
               <span> Github</span>
             </a>
           </div>

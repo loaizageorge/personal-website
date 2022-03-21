@@ -1,12 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
 
-const Section = styled.section`
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
-    grid-gap: 1rem;
-`
-
 const HeroSection = styled.section`
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("hero.jpg");
     height: 60vh;

@@ -5,7 +5,7 @@ const Navbar = () => {
     <nav className="nav">
       <div className="logo">
         <a href="http://georgeloaiza.com">
-          <img height="32px" width="32px" src="icons/ghost.svg" />
+          <img height="32px" width="32px" src="icons/ghost.svg" alt="ghost icon" />
             George Loaiza
         </a>
       </div>

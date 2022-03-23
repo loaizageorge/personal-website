@@ -2,17 +2,20 @@ import React from 'react';
 
 const Project = (props) => {
   const { project } = props;
-  const  imgLink = "portfolio/" + project.image;
+  const { name, image, description, source, demo, demo_text } = project;
+  const  imgLink = `/portfolio/${image}`;
 
   return (
     <section className="project">
       <img src={imgLink} alt="Test" />
       <div className="project__overlay">
-        <h3 className="overlay-title">{project.name}</h3>
+        <h3 className="overlay-title">{name}</h3>
         <div className="overlay-text">
-          <p>{project.description}</p>
-          <a className="sourceLink" href={project.source}>Source Code</a>
-          <a className="demoLink" href={project.demo}>{project.demo_text}</a>
+          <p>{description}</p>
+          {
+            source && <a target="_blank" className="sourceLink" href={source}>Source Code</a>
+          }
+          <a target="_blank" className="demoLink" href={demo}>{demo_text}</a>
         </div>
       </div>
 
